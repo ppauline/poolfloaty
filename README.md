@@ -6,7 +6,7 @@
   </a>
 </p>
 <h1 align="center">
-  Deploying a Gatsby site with AWS Amplify
+  Deploying a website with Continuous Deployment using AWS Amplify
 </h1>
 
 ## Prerequisites 
@@ -18,6 +18,8 @@ Before starting the project you will need the following tools:
 * Node.js & NPM
 * Git
 * Gatsby CLI 
+
+I recommend you [this guide](https://www.gatsbyjs.org/tutorial/part-zero/) if you need help installing those tools.
 
 ## 🚀 Clone repository and run website locally
 
@@ -64,10 +66,5 @@ Before starting the project you will need the following tools:
 
 ## 🎓 Helpful Resources
 
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
-
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
-
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
 
 <!-- AUTO-GENERATED-CONTENT:END -->
