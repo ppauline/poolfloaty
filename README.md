@@ -51,13 +51,14 @@ Before starting the project you will need the following tools:
     ```shell
     # replace origin url with the following command (replace the_url_of_your_repo_here with the url of your new repo)
     git remote set-url origin the_url_of_your_repo_here
+    
+    # Make sure Git is pointing to the proper repository now
+    git remote -v
     ```
     
-    Run the following commands to upload your site to your new repository
+    Run the following command to upload your site to your new repository
     
     ```shell
-    git add .
-    git commit -m "initial commit"
     git push origin master
     ```
 2.  Log into the AWS Amplify Console
@@ -68,14 +69,41 @@ Before starting the project you will need the following tools:
     
     Select GitHub as your repository service.
     
+    Select you recently created **GitHub repository**
+    
     Connect to **master** branch and click **Next**
     
     Review build settings - Click **Next** and then click **Save & Deploy**
     
-    AWS will build and deploy your website 
+    Wait until AWS builds and deploys your site.
     
     Click on the new generated URL for go to your new website.
+    
+3. Trigger a new build (Continuous Deployment).
 
+   cd to your project's folder and open **content/blog/hello-world/index.md**
+   
+   Replace   
+   ``
+   title: Hello World
+   ``
+   
+   with:
+   ``
+   title: Hello from Amplify
+   ``
+   
+   Save & Close
+   
+   From your terminal cd to your project's and push the changes to master branch
+   
+   ```shell
+    git add .
+    git commit -m "Updated Hello World title"
+    git push origin master
+    ```
+   Go to your Amplify Console and see how it rebuilds your website.
+   
 
 ## 🎓 Helpful Resources
 
