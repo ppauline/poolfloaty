@@ -61,7 +61,7 @@ Before starting the project you will need the following tools:
     ```shell
     git push origin master
     ```
-2.  Log into the AWS Amplify Console
+2.  **Log into the AWS Amplify Console**
     
     Go to [AWS Amplify](https://console.aws.amazon.com/amplify/home)
     
@@ -79,7 +79,7 @@ Before starting the project you will need the following tools:
     
     Click on the new generated URL for go to your new website.
     
-3. Trigger a new build (Continuous Deployment).
+3. **Trigger a new build (Continuous Deployment).**
 
    cd to your project's folder and open **content/blog/hello-world/index.md**
    
