@@ -30,7 +30,7 @@ Before starting the project you will need the following tools:
     git clone https://github.com/carloteran19/tmu-blog-amplify.git
     ```
 
-1.  **Install dependencies and run website locally (optional) ** 
+1.  **Install dependencies and run website locally (optional)** 
 
     Navigate into your new site’s directory and start it up.
 
