@@ -84,14 +84,14 @@ Before starting the project you will need the following tools:
    cd to your project's folder and open **content/blog/hello-world/index.md**
    
    Replace   
-   ``
+   ```
    title: Hello World
-   ``
+   ```
    
    with:
-   ``
+   ```
    title: Hello from Amplify
-   ``
+   ```
    
    Save & Close
    
