@@ -15,11 +15,9 @@ Before starting the project you will need the following tools:
 
 * AWS Account 
 * GitHub Account
-* Node.js & NPM
 * Git
-* Gatsby CLI 
-
-I recommend you [this guide](https://www.gatsbyjs.org/tutorial/part-zero/) if you need help installing those tools.
+* Node.js & NPM (Optional for local development)
+* Gatsby CLI (Optional for local development)
 
 ## 🚀 Clone repository and run website locally
 
@@ -32,7 +30,7 @@ I recommend you [this guide](https://www.gatsbyjs.org/tutorial/part-zero/) if yo
     git clone https://github.com/carloteran19/tmu-blog-amplify.git
     ```
 
-1.  **Install dependencies and run website locally.**
+1.  **Install dependencies and run website locally (optional) ** 
 
     Navigate into your new site’s directory and start it up.
 
@@ -63,6 +61,21 @@ I recommend you [this guide](https://www.gatsbyjs.org/tutorial/part-zero/) if yo
     git push origin master
     ```
 2.  Log into the AWS Amplify Console
+    
+    Go to [AWS Amplify](https://console.aws.amazon.com/amplify/home)
+    
+    Click on **Get Started**
+    
+    Select GitHub as your repository service.
+    
+    Connect to **master** branch and click **Next**
+    
+    Review build settings - Click **Next** and then click **Save & Deploy**
+    
+    AWS will build and deploy your website 
+    
+    Click on the new generated URL for go to your new website.
+
 
 ## 🎓 Helpful Resources
 
